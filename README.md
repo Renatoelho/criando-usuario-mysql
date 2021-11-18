@@ -1,6 +1,6 @@
 # Criando usuário no MySQL
 
-Vou ensinar como criar um usuário no *MySQL*, pois mesmo em ambientes de desenvolvimento não é recomendado utilizar o usuário ````root````. Esse passo a passo vai possibilitar também a segmentação de acessos e o que pode ou não ser acessado pelo usuário em questão.
+Vou ensinar como criar um usuário no *MySQL*, pois mesmo em ambientes de desenvolvimento não é recomendado utilizar o usuário ````root```` para o desenvolvimento. Esse passo a passo vai possibilitar também a segmentação de acessos e o que pode ou não ser acessado pelo usuário em questão.
 
 #### Versão do MySQL que foi utilizada nesse passo a passo: 
 > *Server version: 8.0.27-0ubuntu0.20.04.1 (Ubuntu)*
@@ -61,4 +61,4 @@ mysql -u user01 -p
 
 Pronto! Usuário criado e permissões atribuídas, caso queira mais detalhes das opções existentes na sintaxe do *MySQL* acesse a documentação listada nas referências. 
 
-**Referências:**  <br/><font size="1">  <br/>Dev.mysql.com, Account Management Statements. Disponível em: <https://dev.mysql.com/doc/refman/8.0/en/account-management-statements.html>. Acesso em: 18 nov. 2021.  <br/>Dev.mysql.com, CREATE USER Statement. Disponível em: <https://dev.mysql.com/doc/refman/8.0/en/create-user.html>. Acesso em: 18 nov. 2021.  <br/>Dev.mysql.com, GRANT Statement. Disponível em: <https://dev.mysql.com/doc/refman/8.0/en/grant.html>. Acesso em: 18 nov. 2021.  <br/></font>
+**Referências:**  <br/><font size="1">  <br/>Dev.mysql.com, **Account Management Statements.** Disponível em: <https://dev.mysql.com/doc/refman/8.0/en/account-management-statements.html>. Acesso em: 18 nov. 2021.  <br/>Dev.mysql.com, **CREATE USER Statement.** Disponível em: <https://dev.mysql.com/doc/refman/8.0/en/create-user.html>. Acesso em: 18 nov. 2021.  <br/>Dev.mysql.com, **GRANT Statement.** Disponível em: <https://dev.mysql.com/doc/refman/8.0/en/grant.html>. Acesso em: 18 nov. 2021.  <br/></font>
