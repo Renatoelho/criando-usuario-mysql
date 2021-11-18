@@ -1,6 +1,6 @@
 # Criando usuário no MySQL
 
-Vou ensinar como criar um usuário no *MySQL*, pois mesmo em ambientes de desenvolvimento não é recomendado utilizar o usuário ````root```` para o desenvolvimento. Esse passo a passo vai possibilitar também a segmentação de acessos e o que pode ou não ser acessado pelo usuário em questão.
+Vou ensinar como criar um usuário no *MySQL*, pois não é recomendado utilizar o usuário ````root```` para o desenvolvimento. Esse passo a passo vai possibilitar também a segmentação de acessos e o que pode ou não ser acessado pelo usuário em questão.
 
 #### Versão do MySQL que foi utilizada nesse passo a passo: 
 > *Server version: 8.0.27-0ubuntu0.20.04.1 (Ubuntu)*
