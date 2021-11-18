@@ -23,7 +23,7 @@ create user 'user01'@'%' identified by '12345';
 
 ![Criação usuário user01](https://drive.google.com/uc?export=view&id=1MZ5LD4yfsgxkXHvHnHlh3my83tRcxpv3)
 
-# Permissões para usuário
+# Permissões para o usuário
 
 Para dar as permissões necessárias execute a seguinte *query*, considerando que o usuário ````user01```` terá todas as permissões, caso queira limitar isso altere o parâmetro ````all```` por outro como ````select````, ````create```` e etc, além de acesso somente às tabelas do database ````sistema01````.
 
